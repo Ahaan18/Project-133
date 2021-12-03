@@ -1,0 +1,28 @@
+body{
+    font-family: 'Inconsolata', monospace;
+}
+#header{
+    font-size:25px;
+}
+.options{
+    font-size:17px;
+}
+#back{
+    background-color: black;
+    color: white;
+    border-radius: 30%;
+    font-size:20px;
+}
+canvas{
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: hello;
+}
+@keyframes hello{
+from{
+    box-shadow: 3px 3px 3px black;
+}
+to{
+    box-shadow: 10px 10px 10px white;
+}
+}
